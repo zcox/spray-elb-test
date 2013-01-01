@@ -8,7 +8,10 @@ version := "1.0"
 
 scalaVersion := "2.9.1"
 
-resolvers += "spray repo" at "http://repo.spray.io"
+resolvers ++= Seq(
+  "Typesafe" at "repo.typesafe.com/typesafe/releases",
+  "Spray" at "http://repo.spray.io"
+)
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" % "akka-actor" % Version.akka,

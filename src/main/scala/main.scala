@@ -3,7 +3,7 @@ package sprayelbtest
 import spray.routing.SimpleRoutingApp
 
 object Main extends App with SimpleRoutingApp {
-  startServer(interface = "localhost", port = 8080) {
+  startServer(interface = "0.0.0.0", port = 8080) {
     get {
       path("ping") {
         complete {

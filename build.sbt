@@ -9,7 +9,7 @@ version := "1.0"
 scalaVersion := "2.9.1"
 
 resolvers ++= Seq(
-  "Typesafe" at "repo.typesafe.com/typesafe/releases",
+  "Typesafe" at "http://repo.typesafe.com/typesafe/releases",
   "Spray" at "http://repo.spray.io"
 )
 
